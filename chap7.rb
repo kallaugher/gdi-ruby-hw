@@ -1,4 +1,13 @@
 n = 99
-beer = ' bottles of beer'
-wall = ' on the wall'
-puts n.to_s + beer + wall +', ' + n.to_s + beer  + ", take one down and pass it around, " + n.to_s + beer + wall + '.'
+
+while n > 0
+
+	beer = ' bottles of beer'
+	wall = ' on the wall'
+	number = n.to_s
+
+	puts number + beer + wall + ', ' + number + beer  + ", take one down and pass it around, " + number + beer + wall + '. '
+
+	n = n - 1
+	
+end
