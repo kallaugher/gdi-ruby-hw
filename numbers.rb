@@ -1,4 +1,4 @@
-numbers = (1..100).to_a
+numbers = (1..100)
 
 numbers.each do |item|
 
