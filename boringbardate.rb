@@ -3,7 +3,7 @@ puts 'What would you like to say to your date?'
 	response = gets.chomp
 
 	if response != response.upcase
-		puts 'Hu!?!? Um - YA! I CAN\'T HEAR YOU! THE MUSIC\'S TOO LOUD!'
+		puts 'Huh!?!? Um - YA! I CAN\'T HEAR YOU! THE MUSIC\'S TOO LOUD!'
 	
 	elsif response == response.upcase && response != 'BYE'
 		puts 'NO, NOT SINCE ' + (rand(15) + 1984).to_s + '!'
